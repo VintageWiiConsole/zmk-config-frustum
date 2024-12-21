@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: frustum_left nice_view
+    shield: frustum_left #nice_view
   - board: nice_nano_v2
-    shield: frustum_right nice_view
+    shield: frustum_right #nice_view
