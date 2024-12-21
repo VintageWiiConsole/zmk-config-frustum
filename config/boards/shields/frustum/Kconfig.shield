@@ -1,0 +1,5 @@
+config SHIELD_FRUSTUM_LEFT
+    def_bool $(shields_list_contains,frustum_left)
+    
+config SHIELD_FRUSTUM_RIGHT
+    def_bool $(shields_list_contains,frustum_left)
