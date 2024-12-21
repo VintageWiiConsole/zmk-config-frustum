@@ -2,7 +2,7 @@ if SHIELD_FRUSTUM_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "-Frustum-"
+    default "frustum"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
