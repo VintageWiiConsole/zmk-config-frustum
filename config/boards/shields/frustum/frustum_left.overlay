@@ -1,4 +1,4 @@
-#include "frustum.dtsi"
+#include "frustum.dsti"
 
 &kscan0 {
     col-gpios
