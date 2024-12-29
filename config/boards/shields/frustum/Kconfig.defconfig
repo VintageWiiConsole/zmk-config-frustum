@@ -14,3 +14,10 @@ config ZMK_SPLIT
     default y
 
 endif
+
+if ZMK_DISPLAY
+
+config NICE_VIEW
+    default=y
+
+endif
