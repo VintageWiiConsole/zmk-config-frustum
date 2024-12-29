@@ -18,6 +18,6 @@ endif
 if ZMK_DISPLAY
 
 config NICE_VIEW
-    default=y
+    default y
 
 endif
