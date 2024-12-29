@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-/*&nice_view_spi {
+&nice_view_spi {
     status = "okay";
     nice_view: ls0xx@0 {
         compatible = "sharp,ls0xx";
@@ -10,7 +10,6 @@
         height = <68>;
     };
 };
-*/
 
 / {
     chosen {
