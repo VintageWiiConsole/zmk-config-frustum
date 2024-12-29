@@ -1,5 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+nice_view_spi {
+    status = "okay";
+    nice_view: ls0xx@0 {
+        compatible = "sharp,ls0xx";
+        spi-max-frequency = <1000000>;
+        reg = <0>;
+        width = <160>;
+        height = <68>;
+    };
+};
 
 / {
     chosen {
@@ -44,13 +54,3 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(2,6) RC(2,7) RC(3,8) RC(3,9) 
     
 };
 
-&nice_view_spi {
-    status = "okay";
-    nice_view: ls0xx@0 {
-        compatible = "sharp,ls0xx";
-        spi-max-frequency = <1000000>;
-        reg = <0>;
-        width = <160>;
-        height = <68>;
-    };
-};
