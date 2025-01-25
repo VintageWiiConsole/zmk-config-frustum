@@ -23,13 +23,13 @@
 // |  TAB  |  Q  |  W  |  F   |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |       |
 // | SHIFT |  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   | SHIFT | < broken (last key)
 // | CTRL  |  Z  |  X  |  C   |  D   |  V   |  ESC   |  |  ENT  |  K   |  H    |  ,    |  .   |   /   | CTRL  | < broken (last key)
-//         |     | GUI |      | ALT  | LOWER|  BSPC  |  | SPACE | RAISE| FUNC  |       | SETT |       |
+//         | GUI | GUI |      | ALT  | LOWER|  BSPC  |  | SPACE | RAISE| FUNC  |       | SETT |       |
             bindings = <
 &none     &none    &none    &none  &none     &none                       &none  &none     &none     &none    &none    &none 
 &none     &kp Q    &kp W    &kp F  &kp P     &kp B                       &kp J  &kp L     &kp U     &kp Y    &kp SEMI &none
 &none     &kp A    &kp R    &kp S  &kp T     &kp G                       &kp M  &kp N     &kp E     &kp I    &kp O    &none
-&none     &kp Z    &kp X    &kp C  &kp D     &kp V &kp ESC     &kp ENTER &kp K  &kp H     &kp COMMA &kp DOT  &kp FSLH &none
-          &none    &kp GUI         &kp ALT &mo 1   &kp BSPC    &kp SPACE &mo 2  &mo 3               &mo 4    &none
+&kp CTRL  &kp Z    &kp X    &kp C  &kp D     &kp V &kp ESC     &kp ENTER &kp K  &kp H     &kp COMMA &kp DOT  &kp FSLH &none
+          &kp GUI  &kp GUI         &kp ALT   &mo 1 &kp BSPC    &kp SPACE &mo 2  &mo 3               &mo 4    &none
             >;
         };
 
