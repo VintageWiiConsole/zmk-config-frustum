@@ -29,7 +29,7 @@
 &trans     &kp Q     &kp W    &kp F  &kp P     &kp B                        &kp J  &kp L     &kp U     &kp Y    &kp SEMI &trans
 &trans     &kp A     &kp R    &kp S  &kp T     &kp G                        &kp M  &kp N     &kp E     &kp I    &kp O    &trans
 &kp LCTRL  &kp Z     &kp X    &kp C  &kp D     &kp V  &kp ESC     &kp ENTER &kp K  &kp H     &kp COMMA &kp DOT  &kp FSLH &trans
-           &trans    &kp LGUI        &kp ALT   &mo 1  &kp BSPC    &kp SPACE &mo 2  &mo 3               &mo 4    &trans
+           &trans    &kp LGUI        &kp LALT   &mo 1  &kp BSPC    &kp SPACE &mo 2  &mo 3               &mo 4    &trans
             >;
         };
 
@@ -68,6 +68,7 @@
        &trans     &trans              &trans       &trans        &kp DEL   &trans &trans    &trans            &trans    &trans
             >;
         };
+
         function_layer {
                     label = "FNC";
                     display-name = "Function";
@@ -85,6 +86,7 @@
        &trans     &trans                &trans       &trans        &trans    &trans &trans    &trans              &trans    &trans
             >;
                 };
+
         settings {
             label = "SET";
             display-name = "Settings";
