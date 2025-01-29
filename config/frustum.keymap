@@ -28,10 +28,15 @@
             key-positions = <26 27>;
             bindings = <&kp TAB>;
         };
-        combo_win {
+        combo_gui {
             timeout-ms = <50>;
             key-positions = <19 20 21>;
-            bindings = <&kp TAB>;
+            bindings = <&kp LGUI>;
+        };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <19 20 21>;
+            bindings = <&kp DEL>;
         };
     };
     keymap {
@@ -45,14 +50,14 @@
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 // |  TAB  |  Q  |  W  |  F   |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |       |
 // | SHIFT |  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   | SHIFT | < broken (last key)
-// | CTRL  |  Z  |  X  |  C   |  D   |  V   |  ESC   |  |  ENT  |  K   |  H    |  ,    |  .   |   /   | CTRL  | < broken (last key)
+// | CTRL  |  Z  |  X  |  C   |  D   |  V   |  DEL   |  |  ENT  |  K   |  H    |  ,    |  .   |   /   | CTRL  | < broken (last key)
 //         | GUI | GUI |      | TAB  | LOWER|  BSPC  |  | SPACE | RAISE| FUNC  |       | SETT |       |
             bindings = <
 &trans     &trans       &trans       &trans      &trans      &trans                           &trans &trans    &trans         &trans         &trans           &trans 
 &trans     &kp Q        &kp W        &kp F       &kp P       &kp B                            &kp J  &kp L     &kp U          &kp Y          &kp SEMI         &trans
 &trans     &kp A        &kp R        &kp S       &kp T       &kp G                            &kp M  &kp N     &kp E          &kp I          &kp O            &trans
-&trans     &mt LSHIFT Z &mt LCTRL X  &mt LALT C  &kp D       &kp V      &kp ESC     &kp ENTER &kp K  &kp H     &mt RALT COMMA &mt LCTRL DOT  &mt RSHIFT FSLH  &trans
-           &trans       &kp LGUI                 &kp TAB     &mo 1      &kp BSPC    &kp SPACE &mo 2  &mo 3                    &mo 4          &trans
+&trans     &mt LSHIFT Z &mt LCTRL X  &mt LALT C  &kp D       &kp V      &kp DEL     &kp ENTER &kp K  &kp H     &mt RALT COMMA &mt LCTRL DOT  &mt RSHIFT FSLH  &trans
+           &trans       &kp LGUI                 &kp LSHIFT  &mo 1      &kp BSPC    &kp SPACE &mo 2  &mo 3                    &mo 4          &trans
             >; 
         };
         lower_layer {
