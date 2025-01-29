@@ -15,8 +15,18 @@
 
     combo_esc {
             timeout-ms = <50>;
-            key-positions = <13 14>;
+            key-positions = <14 15>;
             bindings = <&kp ESC>;
+        };
+        combo_enter {
+            timeout-ms = <50>;
+            key-positions = <31 32 33>;
+            bindings = <&kp ENTER>;
+        };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&kp TAB>;
         };
     };
     keymap {
@@ -40,7 +50,7 @@
            &trans       &kp LGUI                 &kp TAB     &mo 1      &kp BSPC    &kp SPACE &mo 2  &mo 3                    &mo 4          &trans
             >; 
         };
-
+qw
         lower_layer {
             label = "LOW";
             display-name = "Lower";
