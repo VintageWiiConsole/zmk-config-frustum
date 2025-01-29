@@ -50,7 +50,6 @@
            &trans       &kp LGUI                 &kp TAB     &mo 1      &kp BSPC    &kp SPACE &mo 2  &mo 3                    &mo 4          &trans
             >; 
         };
-qw
         lower_layer {
             label = "LOW";
             display-name = "Lower";
