@@ -13,10 +13,10 @@
     combos {
     compatible = "zmk,combos";
 
-    combo_esc {
+    combo_gui {
             timeout-ms = <50>;
-            key-positions = <14 15>;
-            bindings = <&kp ESC>;
+            key-positions = <14 15 16>;
+            bindings = <&kp LGUI>;
         };
     combo_enter {
             timeout-ms = <50>;
@@ -28,10 +28,10 @@
             key-positions = <26 27>;
             bindings = <&kp TAB>;
         };
-    combo_gui {
+    combo_esc {
             timeout-ms = <50>;
-            key-positions = <19 20 21>;
-            bindings = <&kp LGUI>;
+            key-positions = <20 21>;
+            bindings = <&kp ESC>;
         };
     };
     keymap {
