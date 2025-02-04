@@ -16,7 +16,7 @@
     combo_esc {
             timeout-ms = <50>;
             key-positions = <14 15>;
-            bindings = <&kp LGUI>;
+            bindings = <&kp ESC>;
         };
     combo_enter {
             timeout-ms = <50>;
@@ -31,12 +31,12 @@
     combo_gui {
             timeout-ms = <50>;
             key-positions = < 19 20 21>;
-            bindings = <&kp ESC>;
+            bindings = <&kp LGUI>;
         };
     combo_guileft {
             timeout-ms = <50>;
             key-positions = < 38 39 40>;
-            bindings = <&kp ESC>;
+            bindings = <&kp LGUI>;
         };
     };
     keymap {
