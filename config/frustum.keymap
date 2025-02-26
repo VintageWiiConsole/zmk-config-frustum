@@ -67,13 +67,13 @@
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 // |       |  `  |     |  "[" | "]"  |   .  |                   |  +   |  "{"  |  "}"  |   *  |   \   |       |
 // |       |     |     |   "<"| ">"  |   =  |                   |  -   |  "("  |  ")"  |   /  |   '   |       |
-// |       |     |     |      |      |      |        |  |       |  =   |       |       |      |       |       |
+// |       |     |     |      |      |      |        |  |       |  =   |   _   |       |      |       |       |
 //         |     |     |      |      |      |  SPACE |  |  DEL  |      |       |       |      |       |
             bindings = < 
 &trans     &trans       &trans       &trans       &trans       &trans                             &trans     &trans    &trans    &trans    &trans   &trans
 &trans     &kp GRAVE    &trans       &kp LBKT     &kp RBKT     &kp DOT                            &kp PLUS   &kp LBRC  &kp RBRC  &kp STAR  &kp BSLH &trans
 &trans     &trans       &trans       &kp LT       &kp GT       &kp EQUAL                          &kp MINUS  &kp LPAR  &kp RPAR  &kp FSLH  &kp APOS &trans
-&trans     &trans       &trans       &trans       &trans       &trans       &trans      &trans    &kp EQUAL  &trans    &trans    &kp DOT   &trans   &trans
+&trans     &trans       &trans       &trans       &trans       &trans       &trans      &trans    &kp EQUAL  &kp UNDER &trans    &kp DOT   &trans   &trans
            &trans       &trans                    &trans       &trans       &kp SPACE   &kp DEL   &trans     &trans              &trans    &trans
             >;
         };
