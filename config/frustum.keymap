@@ -37,8 +37,8 @@
             timeout-ms = <50>;
             key-positions = < 38 39 40>;
             bindings = <&kp LGUI>;
-        };
-    };*/
+        };*/
+    };
     keymap {
         compatible = "zmk,keymap";
 
@@ -98,8 +98,8 @@
         };
 
         function_layer {
-                    label = "FNC";
-                    display-name = "Function";
+            label = "FNC";
+            display-name = "Function";
 // ------------------------------------------------------------------------------------------------------------
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 // |       |  !  |  @  |   #  |   $  |   %  |                   | ^    |  &    |   *   | "("  |  ")"  |       |
@@ -113,7 +113,7 @@
 &trans &trans     &trans       &trans   &trans       &kp F6        &trans    &trans &kp F7    &trans    &trans    &trans    &trans    &trans
        &trans     &trans                &trans       &trans        &trans    &trans &trans    &trans              &trans    &trans
             >;
-                };
+        };
 
         settings {
             label = "SET";
