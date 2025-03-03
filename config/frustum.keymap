@@ -57,7 +57,7 @@
 &trans     &kp Q        &kp W        &kp F       &kp P       &kp B                            &kp J  &kp L     &kp U          &kp Y          &kp SEMI         &trans
 &trans     &kp A        &kp R        &kp S       &kp T       &kp G                            &kp M  &kp N     &kp E          &kp I          &kp O            &trans
 &trans     &mt LSHIFT Z &mt LCTRL X  &mt LALT C  &kp D       &kp V      &trans      &trans    &kp K  &kp H     &mt RALT COMMA &mt LCTRL DOT  &mt RSHIFT FSLH  &trans
-           &trans       &trans                   &mo 3       &mo 2      &kp SPACE   &kp BSPC  &mo 1  &mo 4                    &trans         &trans
+           &trans       &trans                   &mo 3       &mo 2      &kp BSPC    &kp SPACE &mo 1  &mo 4                    &trans         &trans
             >;
         };
 
@@ -75,7 +75,7 @@
 &trans &kp PRCNT     &kp EXCL       &kp FSLH    &kp STAR     &kp CARET                        &trans    &kp N7   &kp N8        &kp N9         &kp N0  &trans
 &trans &kp HASH      &kp AMPS       &kp MINUS   &kp PLUS     &kp EQUAL                        &kp N0    &kp N4   &kp N5        &kp N6         &kp DOT &trans
 &trans &mt LSHIFT AT &mt LCTRL PIPE &mt LALT LT &kp GT       &kp UNDER     &trans    &trans   &kp DLLR  &kp N1   &kp N2        &kp N3         &trans  &trans
-       &trans        &trans                     &trans       &trans        &trans    &trans   &trans    &trans                 &trans         &trans
+       &trans        &trans                     &trans       &trans        &trans    &kp BSPC &trans    &trans                 &trans         &trans
             >;
         };
 
@@ -87,13 +87,13 @@
 // |       |  `  |HOME |  UP  | END  | PGUP |                   | "<"  |  "{"  |  "}"  |   ">"|   \   |       |
 // |       |     |LEFT |DOWN  | RIGHT| PGDN |                   |  _   |  "("  |  ")"  |      |   '   |       |
 // |       |     |     |      |      |      |        |  |       |      |  "["  |  "]"  |      |       |       |
-//         |     |     |      |      |      |  SPACE |  |  DEL  |      |       |       |      |       |
+//         |     |     |      |      |      |        |  |  DEL  |      |       |       |      |       |
             bindings = < 
 &trans &trans     &trans     &trans   &trans       &trans                            &trans     &trans    &trans         &trans    &trans   &trans
 &trans &kp GRAVE  &kp HOME   &kp UP   &kp END      &kp PG_UP                         &kp LT     &kp LBRC  &kp RBRC       &kp GT    &kp BSLH &trans
 &trans &trans     &kp LEFT   &kp DOWN &kp RIGHT    &kp PG_DN                         &kp UNDER  &kp LPAR  &kp RPAR       &trans    &kp APOS &trans
 &trans &trans     &trans     &trans   &trans       &trans        &trans    &trans    &trans     &kp LBKT  &mt RALT RBKT  &trans    &trans   &trans
-       &trans     &trans              &trans       &trans        &trans    &kp DEL   &trans     &trans                   &trans    &trans
+       &trans     &trans              &trans       &trans        &kp SPACE &kp DEL   &trans     &trans                   &trans    &trans
             >;
         };
 
